@@ -24,7 +24,9 @@ dependencies:
 
   # Federated Platform Interface
   flowy_infra_ui_platform_interface:
-    path: flowy_infra_ui_platform_interface
+    git: 
+      url: "https://github.com/Akshay-akkay/flowy-infra-ui.git"
+      path: flowy_infra_ui_platform_interface
   flowy_infra_ui_web:
     path: flowy_infra_ui_web
   appflowy_popover:
