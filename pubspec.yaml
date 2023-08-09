@@ -1,4 +1,4 @@
-name: flowy_infra_ui
+  name: flowy_infra_ui
 description: A new flutter plugin project.
 version: 0.0.1
 homepage:
@@ -28,11 +28,15 @@ dependencies:
       url: "https://github.com/Akshay-akkay/flowy-infra-ui.git"
       path: flowy_infra_ui_platform_interface
   flowy_infra_ui_web:
-    path: flowy_infra_ui_web
+    git: 
+      url: "https://github.com/Akshay-akkay/flowy-infra-ui.git"
+      path: flowy_infra_ui_web
   appflowy_popover:
-    path: ../appflowy_popover
+    git:
+      url: 'https://github.com/Akshay-akkay/appflowy-popover.git'
   flowy_infra:
-    path: ../flowy_infra
+    git:
+      url: 'https://github.com/Akshay-akkay/flowy-infra.git'
 
 dev_dependencies:
   flutter_test:
